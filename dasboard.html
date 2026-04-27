@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+
+
+<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+  <div class="container">
+  <a class="navbar-brand" href="index.html">
+     <img src="images/ChatGPT Image 22 Apr 2026, 09.32.42.png" alt="logo" style="width:180px;">
+     
+</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="ti-menu"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Home
+            <span><i class="ti-angle-down"></i></span>
+          </a>
+          <!-- Dropdown list -->
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item active" href="index.html">Homepage</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown @@pages">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Pages
+            <span><i class="ti-angle-down"></i></span>
+          </a>
+          <!-- Dropdown list -->
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item @@team" href="team.html">Team</a></li>
+            <li><a class="dropdown-item" href="sign-in.html">Sign In</a></li>
+            <li><a class="dropdown-item" href="sign-up.html">Sign Up</a></li>
+			<li><a class="dropdown-item" href="dasboard.html">Dashboard</a></li>
+
+            
+
+              <ul class="dropdown-menu" aria-labelledby="dropdown0501">
+                <li><a class="dropdown-item" href="index.html"></a></li>
+                <li><a class="dropdown-item" href="index.html"> </a></li>
+				
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item @@about">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item @@contact">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- PLUGINS CSS STYLE -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+
+    <section class="section dashboard-turnover bg-white">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <div class="col-lg-6 col-md-12">
+        <div class="content-block">
+          <span class="text-uppercase h6 font-weight-bold" style="color: #2ecc71; letter-spacing: 2px;">Modul 01</span>
+          <h2 class="mt-2 mb-4 font-weight-bold" style="font-size: 2.8rem; color: #1a2a3a;">Dashboard & Turnover</h2>
+          
+          <ul class="list-unstyled">
+            <li class="d-flex align-items-center mb-3">
+              <i class="ti-check-box mr-3" style="color: #e74c3c; font-size: 1.2rem;"></i>
+              <span class="text-secondary">Ringkasan data karyawan secara real-time</span>
+            </li>
+            <li class="d-flex align-items-center mb-3">
+              <i class="ti-stats-down mr-3" style="color: #3498db; font-size: 1.2rem;"></i>
+              <span class="text-secondary">Grafik turnover bulanan & tahunan</span>
+            </li>
+            <li class="d-flex align-items-center mb-3">
+              <i class="ti-desktop mr-3" style="color: #34495e; font-size: 1.2rem;"></i>
+              <span class="text-secondary">Dashboard berbeda untuk Admin & Staff</span>
+            </li>
+            <li class="d-flex align-items-center mb-3">
+              <i class="ti-search mr-3" style="color: #2980b9; font-size: 1.2rem;"></i>
+              <span class="text-secondary">Analisis tren masuk-keluar karyawan</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 mt-5 mt-lg-0">
+        <div class="stat-cards">
+          
+          <div class="bg-white p-4 mb-3 rounded shadow-sm border d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+              <div class="dot mr-3" style="height: 12px; width: 12px; background-color: #2ecc71; border-radius: 50%;"></div>
+              <div>
+                <p class="mb-0 small text-muted">Total Karyawan</p>
+                <h3 class="mb-0 font-weight-bold">1,250</h3>
+              </div>
+            </div>
+            <span class="text-success small font-weight-bold">+12%</span>
+          </div>
+
+          <div class="bg-white p-4 mb-3 rounded shadow-sm border d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+              <div class="dot mr-3" style="height: 12px; width: 12px; background-color: #e74c3c; border-radius: 50%;"></div>
+              <div>
+                <p class="mb-0 small text-muted">Turnover Rate</p>
+                <h3 class="mb-0 font-weight-bold">4.2%</h3>
+              </div>
+            </div>
+            <span class="text-danger small font-weight-bold">-0.8%</span>
+          </div>
+
+          <div class="bg-white p-4 mb-3 rounded shadow-sm border d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+              <div class="dot mr-3" style="height: 12px; width: 12px; background-color: #2ecc71; border-radius: 50%;"></div>
+              <div>
+                <p class="mb-0 small text-muted">Karyawan Baru</p>
+                <h3 class="mb-0 font-weight-bold">48</h3>
+              </div>
+            </div>
+            <span class="text-success small font-weight-bold">+15%</span>
+          </div>
+
+          <div class="bg-white p-4 rounded shadow-sm border d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+              <div class="dot mr-3" style="height: 12px; width: 12px; background-color: #e74c3c; border-radius: 50%;"></div>
+              <div>
+                <p class="mb-0 small text-muted">Resign</p>
+                <h3 class="mb-0 font-weight-bold">12</h3>
+              </div>
+            </div>
+            <span class="text-danger small font-weight-bold">-3</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<Section>
+    <style>
+  .modul-card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  .modul-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+  }
+  .accent-line {
+    height: 3px;
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 2px;
+  }
+</style>
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12 text-center text-lg-left">
+        <span class="text-uppercase h6 font-weight-bold" style="color: #2ecc71; letter-spacing: 2px;">Modul Utama</span>
+        <h2 class="mt-2 font-weight-bold" style="font-size: 2.5rem; color: #1a2a3a;">12 Modul Terintegrasi</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="bg-white p-4 modul-card shadow-sm h-100">
+          <i class="ti-bar-chart text-dark" style="font-size: 2rem;"></i>
+          <h6 class="mt-3 font-weight-bold mb-0">Dashboard & Turnover</h6>
+          <div class="accent-line bg-primary"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="bg-white p-4 modul-card shadow-sm h-100">
+          <i class="ti-server text-dark" style="font-size: 2rem;"></i>
+          <h6 class="mt-3 font-weight-bold mb-0">Master Data</h6>
+          <div class="accent-line" style="background-color: #9b59b6;"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="bg-white p-4 modul-card shadow-sm h-100">
+          <i class="ti-id-badge text-dark" style="font-size: 2rem;"></i>
+          <h6 class="mt-3 font-weight-bold mb-0">Data Karyawan</h6>
+          <div class="accent-line bg-success"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="bg-white p-4 modul-card shadow-sm h-100">
+          <i class="ti-calendar text-dark" style="font-size: 2rem;"></i>
+          <h6 class="mt-3 font-weight-bold mb-0">Absensi & Cuti</h6>
+          <div class="accent-line" style="background-color: #e67e22;"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="bg-white p-4 modul-card shadow-sm h-100">
+          <i class="ti-money text-dark" style="font-size: 2rem;"></i>
+          <h6 class="mt-3 font-weight-bold mb-0">Payroll</h6>
+          <div class="accent-line" style="background-color: #e91e63;"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="bg-white p-4 modul-card shadow-sm h-100">
+          <i class="ti-target text-dark" style="font-size: 2rem;"></i>
+          <h6 class="mt-3 font-weight-bold mb-0">Rekrutmen</h6>
+          <div class="accent-line bg-info"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="bg-white p-4 modul-card shadow-sm h-100">
+          <i class="ti-star text-dark" style="font-size: 2rem;"></i>
+          <h6 class="mt-3 font-weight-bold mb-0">Penilaian Kinerja</h6>
+          <div class="accent-line" style="background-color: #f1c40f;"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="bg-white p-4 modul-card shadow-sm h-100">
+          <i class="ti-blackboard text-dark" style="font-size: 2rem;"></i>
+          <h6 class="mt-3 font-weight-bold mb-0">Internship</h6>
+          <div class="accent-line" style="background-color: #6c5ce7;"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="bg-white p-4 modul-card shadow-sm h-100">
+          <i class="ti-clipboard text-dark" style="font-size: 2rem;"></i>
+          <h6 class="mt-3 font-weight-bold mb-0">Audit</h6>
+          <div class="accent-line" style="background-color: #1abc9c;"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="bg-white p-4 modul-card shadow-sm h-100">
+          <i class="ti-book text-dark" style="font-size: 2rem;"></i>
+          <h6 class="mt-3 font-weight-bold mb-0">ADDIE & Training</h6>
+          <div class="accent-line" style="background-color: #d35400;"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="bg-white p-4 modul-card shadow-sm h-100">
+          <i class="ti-wand text-dark" style="font-size: 2rem;"></i>
+          <h6 class="mt-3 font-weight-bold mb-0">5S</h6>
+          <div class="accent-line" style="background-color: #3498db;"></div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="bg-white p-4 modul-card shadow-sm h-100">
+          <i class="ti-folder text-dark" style="font-size: 2rem;"></i>
+          <h6 class="mt-3 font-weight-bold mb-0">Lainnya</h6>
+          <div class="accent-line" style="background-color: #bdc3c7;"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</Section>
+    
+</body>
+</html>
+
+
+<footer>
+  <div class="footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
+          <div class="block">"></a>
+            <!-- Social Site Icons -->
+            <ul class="social-icon list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/themefisher"><i class="ti-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/themefisher"><i class="ti-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/zenmultimediaindonesia/"><i class="ti-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Product</h6>
+            <!-- links -->
+            <ul>
+              <li><a href="team.html">Teams</a></li>
+            
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Resources</h6>
+            <!-- links -->
+            <ul>
+              <li><a href="sign-up.html">Singup</a></li>
+              <li><a href="sign-in.html">Login</a></li>
+             
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Company</h6>
+            <!-- links -->
+            <ul>
+             
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="team.html">Investor</a></li>
+            
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>Company</h6>
+            <!-- links -->
+            <ul>
+              
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="team.html">Team</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center bg-dark py-4">
+    <small class="text-secondary">Copyright copy; <script>document.write(new Date().getFullYear())</script>. Designed amp; Developed by <a href="https://zenmultimedia.co.id/">Pt Zen Multimedia Indonesia</a></small class="text-secondary">
+  </div>
+
+	<div class="text-center bg-dark py-1">
+   <small> <p>Distributed By <a href="https://hris-frontend.zmidevelopment.com/admin">PT Harmonics Techindo Agung</a></p></small class="text-secondary">
+  </div>
+</footer>
